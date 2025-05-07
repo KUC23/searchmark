@@ -1,0 +1,45 @@
+# Git 관련 파일
+.git
+.gitignore
+
+# Python 관련
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 가상환경
+venv/
+ENV/
+
+# IDE 관련
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 로그 파일
+*.log
+
+# 테스트 관련
+tests/
+test/
+.coverage
+htmlcov/
+.pytest_cache/ 
