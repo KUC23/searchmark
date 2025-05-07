@@ -63,7 +63,7 @@ uvicorn app.main:app --reload
 GET /searchmarks/search?productName=프레스카&status=등록&product_code=30&limit=10
 ```
 
-### 유사도 기반반 검색 예시
+### 유사도 기반 검색 예시
 ```
 GET /searchmarks/search?productName=프레스카&status=등록&product_code=30&limit=10&use_fuzzy_search=true
 '''
